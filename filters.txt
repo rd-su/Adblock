@@ -6,10 +6,6 @@
 !# ------------------------------------------------------------------
 !# ---------------------------- SECURITY ----------------------------
 !# ------------------------------------------------------------------
-!# Block third-party web requests on insecure HTTP websites except images and CSS-stylesheets
-!# https://malwaretips.com/threads/ublock0rigin-in-medium-mode-for-lighter-and-stronger-protection-with-less-websites-breakage-and-hassle.93311/
-!# Block insecure (HTTP) third-party content except stylesheet, image and media
-!|http://$third-party,~image,~media,~stylesheet,domain=~co|~com|~de|~es|~eu|~fr|~info|~io|~it|~net|~org|~pt|~uk|~arenavision.club|~arenavision.site
 
 !# Block downloading executable content from insecure HTTP websites
 |http://*.exe^$empty
@@ -29,59 +25,26 @@
 |http://*.vbs^$empty
 |http://*.tmp^$empty
 
-!# Block external (third-party) websites access to local services
-!||127.0.^$third-party,important,domain=~arenavision.club|~arenavision.site
-!||localhost^$third-party,important
-!||[::1]^$third-party,important
-!||192.168.^$third-party,important
-
-
 !# ------------------------------------------------------------------
 !# --------------------------- EXCEPTIONS ---------------------------
 !# ------------------------------------------------------------------
-!@@||eupago.pt/externo/pixelMBW/pixel.php$image
 
 
 !# ------------------------------------------------------------------
 !# ----------------------------- OTHERS -----------------------------
 !# ------------------------------------------------------------------
 
-!# info about third party
-!# https://whotracks.me/trackers.html
-!# https://trackingthetrackers.com/
-!# https://blog.detectify.com/2017/02/02/full-statistic-third-party-research/
-!# https://collinmbarrett.com/block-web-fonts/
-
-!# blocking some TLDs (https://krebsonsecurity.com/2018/03/omitting-the-o-in-com-could-be-costly/)´
-!# https://www.bluecatnetworks.com/blog/block-that-top-level-domain/
-!# http://www.surbl.org/tld
-!# 2019.08.19
-!# ----- Spamhaus: https://www.spamhaus.org/statistics/tlds/
-
 !# Cookies ------------------------------------------------------
-###cookieLawBar
-
-!# cnnportugal.iol.pt
-!cnnportugal.iol.pt##.pubWrapper
-cnnportugal.iol.pt###popover
-!@@||quantcast.mgr.consensu.org/choice/*/choice.js$script,domain=cnnportugal.iol.pt
-
-!# diariocoimbra.pt
-!diariocoimbra.pt##.modal-dialog
-!diariocoimbra.pt##.in.fade.modal-backdrop
-
-!# dn.pt
-dn.pt##.pub-wrapper
+!###cookieLawBar
 
 !# diariocoimbra.pt
 diariocoimbra.pt##.dc-pub
 
-!# eurosport.com
-||fwmrm.net^$script,domain=eurosport.com
+!# dn.pt
+dn.pt##.pub-wrapper
 
-!# facebook.com, messenger.com
-!facebook.com##[href*="ads"]
-!facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 > .cxgpxx05 > div > span
+!# eurosport.com
+!||fwmrm.net^$script,domain=eurosport.com
 
 !# ghacks.net
 ghacks.net##div[id^="ghacks_ad_code"]
@@ -107,10 +70,10 @@ podurama.com##.gothic.side-podcasts
 podurama.com##.jsx-2548284907
 
 !# publico.pt
-publico.pt##.aside--ads.aside
-publico.pt##aside.ad-slot--sticky
-publico.pt##.ad-slot--in-content.ad-slot
-publico.pt##.ad-slot--double.ad-slot
+!publico.pt##.aside--ads.aside
+!publico.pt##aside.ad-slot--sticky
+!publico.pt##.ad-slot--in-content.ad-slot
+!publico.pt##.ad-slot--double.ad-slot
 
 !# radios-online.pt
 radios-online.pt###original_taboola
@@ -126,7 +89,7 @@ record.pt##.comimprensa.noticias_clube.container
 record.pt##.col_styck.lateral
 
 !# reddit.com
-reddit.com##.promotedlink
+!reddit.com##.promotedlink
 
 !# rutracker.org
 rutracker.*###brand-bn-wrap
