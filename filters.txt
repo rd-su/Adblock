@@ -1,0 +1,175 @@
+!# https://adblockplus.org/filter-cheatsheet
+!# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
+!# https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax
+!# https://help.eyeo.com/en/adblockplus/how-to-write-filters
+
+!# ------------------------------------------------------------------
+!# ---------------------------- SECURITY ----------------------------
+!# ------------------------------------------------------------------
+!# Block third-party web requests on insecure HTTP websites except images and CSS-stylesheets
+!# https://malwaretips.com/threads/ublock0rigin-in-medium-mode-for-lighter-and-stronger-protection-with-less-websites-breakage-and-hassle.93311/
+!# Block insecure (HTTP) third-party content except stylesheet, image and media
+!|http://$third-party,~image,~media,~stylesheet,domain=~co|~com|~de|~es|~eu|~fr|~info|~io|~it|~net|~org|~pt|~uk|~arenavision.club|~arenavision.site
+
+!# Block downloading executable content from insecure HTTP websites
+|http://*.exe^$empty
+|http://*.msi^$empty
+|http://*.bat^$empty
+|http://*.dll^$empty
+|http://*.hta^$empty
+|http://*.jar^$empty
+|http://*.msu^$empty
+|http://*.pif^$empty
+|http://*.ps1^$empty
+|http://*.ps2^$empty
+|http://*.reg^$empty
+|http://*.scr^$empty
+|http://*.sys^$empty
+|http://*.vbe^$empty
+|http://*.vbs^$empty
+|http://*.tmp^$empty
+
+!# Block external (third-party) websites access to local services
+!||127.0.^$third-party,important,domain=~arenavision.club|~arenavision.site
+!||localhost^$third-party,important
+!||[::1]^$third-party,important
+!||192.168.^$third-party,important
+
+
+!# ------------------------------------------------------------------
+!# --------------------------- EXCEPTIONS ---------------------------
+!# ------------------------------------------------------------------
+!@@||eupago.pt/externo/pixelMBW/pixel.php$image
+
+
+!# ------------------------------------------------------------------
+!# ----------------------------- OTHERS -----------------------------
+!# ------------------------------------------------------------------
+
+!# info about third party
+!# https://whotracks.me/trackers.html
+!# https://trackingthetrackers.com/
+!# https://blog.detectify.com/2017/02/02/full-statistic-third-party-research/
+!# https://collinmbarrett.com/block-web-fonts/
+
+!# blocking some TLDs (https://krebsonsecurity.com/2018/03/omitting-the-o-in-com-could-be-costly/)´
+!# https://www.bluecatnetworks.com/blog/block-that-top-level-domain/
+!# http://www.surbl.org/tld
+!# 2019.08.19
+!# ----- Spamhaus: https://www.spamhaus.org/statistics/tlds/
+
+!# Cookies ------------------------------------------------------
+###cookieLawBar
+
+!# cnnportugal.iol.pt
+!cnnportugal.iol.pt##.pubWrapper
+cnnportugal.iol.pt###popover
+!@@||quantcast.mgr.consensu.org/choice/*/choice.js$script,domain=cnnportugal.iol.pt
+
+!# diariocoimbra.pt
+!diariocoimbra.pt##.modal-dialog
+!diariocoimbra.pt##.in.fade.modal-backdrop
+
+!# dn.pt
+dn.pt##.pub-wrapper
+
+!# diariocoimbra.pt
+diariocoimbra.pt##.dc-pub
+
+!# eurosport.com
+||fwmrm.net^$script,domain=eurosport.com
+
+!# facebook.com, messenger.com
+!facebook.com##[href*="ads"]
+!facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 > .cxgpxx05 > div > span
+
+!# ghacks.net
+ghacks.net##div[id^="ghacks_ad_code"]
+
+!# goalpoint.pt
+goalpoint.pt###tdi_27
+
+!# kuantokusta.pt
+kuantokusta.pt##.c-hakyQ
+
+!# maisfutebol.iol.pt
+maisfutebol.iol.pt##.b-loaded.b-lazy.picture16x9.destaqueBig
+@@||quantcast.mgr.consensu.org/choice/*/choice.js$script,domain=maisfutebol.iol.pt
+
+!# medium.com
+medium.com###lo-meter-banner-background-color
+
+!# observador.pt
+
+!# podurama.com
+podurama.com##div.jsx-1727295584:nth-of-type(1)
+podurama.com##.gothic.side-podcasts
+podurama.com##.jsx-2548284907
+
+!# publico.pt
+publico.pt##.aside--ads.aside
+publico.pt##aside.ad-slot--sticky
+publico.pt##.ad-slot--in-content.ad-slot
+publico.pt##.ad-slot--double.ad-slot
+
+!# radios-online.pt
+radios-online.pt###original_taboola
+radios-online.pt##.related_radios_list
+
+!# record.pt
+record.pt##.registerPush.notificacao
+record.pt##.cstudio
+record.pt##.indica_hp
+record.pt###blocoOutrasNoticiasIMatrics > .noticias_cofina
+record.pt##section.noticias_clube.container:nth-of-type(15)
+record.pt##.comimprensa.noticias_clube.container
+record.pt##.col_styck.lateral
+
+!# reddit.com
+reddit.com##.promotedlink
+
+!# rutracker.org
+rutracker.*###brand-bn-wrap
+rutracker.*###bn-top-block
+rutracker.*###bn-bot-wrap
+rutracker.*###adriver-240x120zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxcccccccccc
+rutracker.*##.bn-idx
+!rutracker.*##div[class^="bn-idx"]
+rutracker.*###logo-td + .w100.tCenter
+rutracker.*###idx-sidebar2 > div:not([id]):not([class])
+rutracker.*###bn-top-right
+rutracker.*###bn-page-bottom-block
+rutracker.*##.bn-idx-internal
+
+!# sapo.pt
+sapo.pt##.top-pub
+
+!# sofascore.com
+sofascore.com##.fBokVE.Box
+sofascore.com##.hnGKrQ.Box
+sofascore.com##.cgjwIc.Box
+sofascore.com##.kIoUts.Box
+sofascore.com##.jdrVik.Box
+sofascore.com##.jPceMH.Box
+
+!# startpage.com
+startpage.com###master-1
+
+!# strava.com
+strava.com##.challenge
+strava.com##.promo
+strava.com##.js-snw-goals-upsell
+strava.com###explore-strava
+strava.com###your-challenges
+strava.com###your-privacy-zone
+strava.com##.upgrade.nav-item
+strava.com##.matched-activities-upsell.row
+strava.com##div.react-card-container:nth-of-type(6)
+
+!# waze.com
+waze.com##.wz-downloadbar
+
+!# zerozero.pt
+zerozero.pt##.mrec
+zerozero.pt##.halfpage
+zerozero.pt##.pubframe
