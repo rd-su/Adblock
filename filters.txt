@@ -3,7 +3,7 @@
 ! Title: RDSU Personal List
 ! Description: My Personal List...
 ! Homepage: https://github.com/rd-su/Adblock/
-! Version: 2024.11.27
+! Version: 2024.11.21
 !
 
 !# https://adblockplus.org/filter-cheatsheet
