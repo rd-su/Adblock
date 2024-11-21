@@ -1,6 +1,7 @@
 [AdBlockPlus 2.0]
 !
 ! Title: RDSU Personal List
+! Homepage: https://github.com/rd-su/Adblock/
 ! Version: 2024.11.27
 !
 
