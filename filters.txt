@@ -53,6 +53,9 @@ ghacks.net##div[id^="ghacks_ad_code"]
 !# goalpoint.pt
 goalpoint.pt###tdi_27
 
+!# komoot.com
+komoot.com##.css-1y2qhj7
+
 !# kuantokusta.pt
 kuantokusta.pt##.c-hakyQ
 
