@@ -67,8 +67,9 @@ maisfutebol.iol.pt##.b-loaded.b-lazy.picture16x9.destaqueBig
 medium.com###lo-meter-banner-background-color
 
 !# observador.pt
-observador.pt###toaster-hardcoded
+observador.pt###obs-header
 observador.pt###growthbook-moa-wrapper
+observador.pt###toaster-hardcoded
 
 !# podurama.com
 podurama.com##div.jsx-1727295584:nth-of-type(1)
