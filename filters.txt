@@ -83,6 +83,7 @@ publico.pt##.aside--ads.aside
 publico.pt##aside.ad-slot--sticky
 publico.pt##.ad-slot--in-content.ad-slot
 publico.pt##.ad-slot--double.ad-slot
+publico.pt##.subscription-disclaimer
 
 !# radios-online.pt
 radios-online.pt###original_taboola
