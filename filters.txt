@@ -3,11 +3,12 @@
 ! Title: RDSU Personal List
 ! Description: My Personal List...
 ! Homepage: https://github.com/rd-su/Adblock/
-! Version: 2025.03.24
+! Version: 2025.03.26
 !
 !# https://adblockplus.org/filter-cheatsheet
 !# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 !# https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax
+https://www.reddit.com/r/uBlockOrigin/wiki/index/#wiki_which_filter_lists_should_i_select.3F
 !# https://help.eyeo.com/en/adblockplus/how-to-write-filters
 !# ------------------------------------------------------------------
 !# --------------------------- EXCEPTIONS ---------------------------
