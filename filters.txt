@@ -3,12 +3,11 @@
 ! Title: RDSU Personal List
 ! Description: My Personal List...
 ! Homepage: https://github.com/rd-su/Adblock/
-! Version: 2025.03.28
+! Version: 2025.04.20
 !
 !# https://adblockplus.org/filter-cheatsheet
 !# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 !# https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax
-https://www.reddit.com/r/uBlockOrigin/wiki/index/#wiki_which_filter_lists_should_i_select.3F
 !# https://help.eyeo.com/en/adblockplus/how-to-write-filters
 !# ------------------------------------------------------------------
 !# --------------------------- EXCEPTIONS ---------------------------
@@ -45,6 +44,11 @@ diariocoimbra.pt##.dc-pub
 !# dn.pt
 dn.pt##.pub-wrapper
 
+!# escapecollective.com
+!escapecollective.com##.gh-post-upgrade-cta--show
+!escapecollective.com##.gh-post-upgrade-cta--paywall
+escapecollective.com##.gh-post-upgrade-cta
+
 !# eurosport.com
 !||fwmrm.net^$script,domain=eurosport.com
 
@@ -80,7 +84,6 @@ podurama.com##.right-bar
 
 !# publico.pt
 publico.pt##.pubHorz
-publico.pt###solverdeWidget
 publico.pt##.aside--ads.aside
 publico.pt##aside.ad-slot--sticky
 publico.pt##.ad-slot--in-content.ad-slot
