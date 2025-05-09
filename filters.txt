@@ -3,7 +3,7 @@
 ! Title: RDSU Personal List
 ! Description: My Personal List...
 ! Homepage: https://github.com/rd-su/Adblock/
-! Version: 2025.04.20
+! Version: 2025.05.09
 !
 !# https://adblockplus.org/filter-cheatsheet
 !# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
@@ -54,6 +54,11 @@ escapecollective.com##.gh-post-upgrade-cta
 
 !# ghacks.net
 ghacks.net##div[id^="ghacks_ad_code"]
+
+!# goride.pt
+goride.pt##.a-single
+goride.pt##.g
+
 
 !# goalpoint.pt
 goalpoint.pt###tdi_27
