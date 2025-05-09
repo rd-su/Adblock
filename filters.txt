@@ -59,7 +59,6 @@ ghacks.net##div[id^="ghacks_ad_code"]
 goride.pt##.a-single
 goride.pt##.g
 
-
 !# goalpoint.pt
 goalpoint.pt###tdi_27
 
