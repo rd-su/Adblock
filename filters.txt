@@ -82,8 +82,11 @@ medium.com###lo-meter-banner-background-color
 
 !# observador.pt
 !/\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script,domain=observador.pt
-!/\/observador\.pt\/especiais\//$inline-script,from=observador.pt
-||accounts.google.com/gsi/$script,domain=observador.pt
+!||observador.pt/especiais/$inline-script,1p
+!||observador.pt/opiniao/$inline-script,1p
+||observador.pt/especiais/$inline-script
+||observador.pt/opiniao/$inline-script
+!||accounts.google.com/gsi/$script,domain=observador.pt
 observador.pt###obs-header
 observador.pt###growthbook-moa-wrapper
 observador.pt###toaster-hardcoded
@@ -163,3 +166,4 @@ waze.com##.wz-downloadbar
 zerozero.pt##.mrec
 zerozero.pt##.halfpage
 zerozero.pt##.pubframe
+
