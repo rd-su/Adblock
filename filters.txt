@@ -81,13 +81,9 @@ maisfutebol.iol.pt##.b-loaded.b-lazy.picture16x9.destaqueBig
 medium.com###lo-meter-banner-background-color
 
 !# observador.pt
-||accounts.google.com^$domain=observador.pt
 !/\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script,domain=observador.pt
 !/\/observador\.pt\/especiais\//$inline-script,from=observador.pt
-!/\/observador\.pt\/opiniao\//$inline-script,from=observador.pt
-||observador.pt/especiais/$inline-script
-||observador.pt/opiniao/$inline-script
-||bloombergadria.com/*/news$inline-script
+||accounts.google.com/gsi/$script,domain=observador.pt
 observador.pt###obs-header
 observador.pt###growthbook-moa-wrapper
 observador.pt###toaster-hardcoded
