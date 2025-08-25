@@ -3,7 +3,7 @@
 ! Title: RDSU Personal List
 ! Description: My Personal List...
 ! Homepage: https://github.com/rd-su/Adblock/
-! Version: 2025.08.24
+! Version: 2025.08.25
 !
 !# https://adblockplus.org/filter-cheatsheet
 !# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
@@ -54,8 +54,8 @@ dn.pt##.pub-wrapper
 !escapecollective.com##.gh-post-upgrade-cta--paywall
 escapecollective.com##.gh-post-upgrade-cta
 
-!# eurosport.com
-!||fwmrm.net^$script,domain=eurosport.com
+!# tntsports.co.uk (eurosport.com)
+!||fwmrm.net^$script,domain=tntsports.co.uk
 
 !# ghacks.net
 ghacks.net##div[id^="ghacks_ad_code"]
