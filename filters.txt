@@ -84,9 +84,9 @@ maisfutebol.iol.pt##.b-loaded.b-lazy.picture16x9.destaqueBig
 medium.com###lo-meter-banner-background-color
 
 !# ojogo.pt
-ojogo.pt###section_859ee3b6-4e69-47ad-af21-1f9c77ef4c7f
-ojogo.pt###section_9e55f027-dbe1-4619-a357-ae1ed518642d
 ojogo.pt###section_c6173158-421e-42a9-a544-ef60f70fbe4a
+ojogo.pt##.block-slice-full-w-horiz-slider-module-scss-module__5dp3Nq__SliceGridArticlesSpaced
+ojogo.pt###section_9e55f027-dbe1-4619-a357-ae1ed518642d
 
 !# observador.pt
 !/\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script,domain=observador.pt
