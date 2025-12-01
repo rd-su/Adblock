@@ -3,7 +3,7 @@
 ! Title: RDSU Personal List
 ! Description: My Personal List...
 ! Homepage: https://github.com/rd-su/Adblock/
-! Version: 2025.11.25
+! Version: 2025.12.01
 !
 !# https://adblockplus.org/filter-cheatsheet
 !# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
@@ -116,6 +116,8 @@ record.pt##section.noticias_clube.container:nth-of-type(15)
 record.pt##.comimprensa.noticias_clube.container
 record.pt##.col_styck.lateral
 record.pt##.masthead_pub
+record.pt##.prod-sponsored
+record.pt##.destaque--indica
 
 !# reddit.com
 !reddit.com##.promotedlink
