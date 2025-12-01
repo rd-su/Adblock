@@ -67,6 +67,9 @@ goride.pt##.g
 !# goalpoint.pt
 goalpoint.pt###tdi_27
 
+!# jn.pt
+jn.pt##.pre-shell-pub-module-scss-module__oWUpAW__Wrap
+
 !# komoot.com
 komoot.com##.css-1y2qhj7
 
