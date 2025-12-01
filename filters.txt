@@ -72,6 +72,8 @@ jn.pt##.pre-shell-pub-module-scss-module__oWUpAW__Wrap
 
 !# komoot.com
 komoot.com##.css-1y2qhj7
+komoot.com##.css-1hca9b2
+komoot.com##.css-x6u87t
 
 !# kuantokusta.pt
 kuantokusta.pt##.c-hakyQ
