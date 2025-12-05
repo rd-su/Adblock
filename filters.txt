@@ -42,6 +42,9 @@
 abola.pt##.hidden.mx-auto
 abola.pt##.hidden.container
 abola.pt##.items-center.hidden
+!mobile
+abola.pt##.sm\:hidden.justify-center
+abola.pt##.MuiLink-root
 
 !# diariocoimbra.pt
 diariocoimbra.pt##.dc-pub
