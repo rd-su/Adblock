@@ -116,6 +116,9 @@ publico.pt##.ad-slot--in-content.ad-slot
 publico.pt##.ad-slot--double.ad-slot
 publico.pt##.subscription-disclaimer
 
+!# qwant.com
+qwant.com##.RNGRK
+
 !# radios-online.pt
 radios-online.pt###original_taboola
 radios-online.pt##.related_radios_list
