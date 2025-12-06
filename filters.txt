@@ -3,7 +3,7 @@
 ! Title: RDSU Personal List
 ! Description: My Personal List...
 ! Homepage: https://github.com/rd-su/Adblock/
-! Version: 2025.12.05
+! Version: 2025.12.06
 !
 !# https://adblockplus.org/filter-cheatsheet
 !# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
@@ -40,6 +40,7 @@
 
 !#abola.pt
 abola.pt##.hidden.mx-auto
+abola.pt##.mx-auto.hidden
 abola.pt##.hidden.container
 abola.pt##.items-center.hidden
 !mobile
