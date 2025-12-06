@@ -43,6 +43,7 @@ abola.pt##.hidden.mx-auto
 abola.pt##.mx-auto.hidden
 abola.pt##.hidden.container
 abola.pt##.items-center.hidden
+abola.pt##.hidden.items-center
 !mobile
 abola.pt##.sm\:hidden.justify-center
 abola.pt##.MuiLink-root
